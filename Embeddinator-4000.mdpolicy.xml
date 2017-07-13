@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Policies>
+  <PolicySet name="User Default" id="UserDefault">
+    <TextStylePolicy inheritsSet="Default" inheritsScope="text/plain" scope="text/plain">
+      <NoTabsAfterNonTabs>True</NoTabsAfterNonTabs>
+    </TextStylePolicy>
+    <TextStylePolicy inheritsSet="Default" inheritsScope="text/x-csharp" scope="text/x-csharp">
+      <FileWidth>80</FileWidth>
+      <TabsToSpaces>True</TabsToSpaces>
+      <NoTabsAfterNonTabs>True</NoTabsAfterNonTabs>
+    </TextStylePolicy>
+    <CSharpFormattingPolicy inheritsSet="Default" inheritsScope="text/x-csharp" scope="text/x-csharp" />
+    <TextStylePolicy inheritsSet="null" scope="text/x-fsharp" />
+    <FSharpFormattingPolicy inheritsSet="Default" inheritsScope="text/x-fsharp" scope="text/x-fsharp" />
+    <TextStylePolicy inheritsSet="null" scope="text/x-css" />
+    <CSSFormattingPolicy inheritsSet="Default" inheritsScope="text/x-css" scope="text/x-css" />
+    <TextStylePolicy inheritsSet="null" scope="text/x-html" />
+    <HTMLFormattingPolicy inheritsSet="Default" inheritsScope="text/x-html" scope="text/x-html" />
+    <StandardHeader inheritsSet="Default" />
+    <DotNetNamingPolicy inheritsSet="Default" />
+  </PolicySet>
+</Policies>
